@@ -1,0 +1,62 @@
+body {
+  margin: 0 auto;
+  width: 1600px;
+  font-family: "IBM Plex Sans Thai", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 2210px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+header h1 {
+  padding: 10px 0;
+  margin: 10px;
+  background-color: #005f73;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  color: white;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.block-content h2 {
+  text-align: center;
+  font-weight: normal;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgb(238, 155, 0);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  padding: 10px 10px;
+  margin: 10px 10px 10px 20px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  width: 340px;
+}
+
+.block-content p {
+  display: inline-block;
+  margin: 10px;
+  padding: 40px 10px 10px;
+  background-color: rgb(233, 216, 166);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  width: 360px;
+}
+
+span {
+  display: inline-block;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: rgb(174, 32, 18);
+  color: white;
+  border-radius: 7px;
+  margin-bottom: 8px;
+}
