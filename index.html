@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./styles.css" rel="stylesheet" />
+    <title>HTML-CSS-Cheatsheet-Starting</title>
+  </head>
+  <body>
+    <header>
+      <h1>HTML Cheat sheet</h1>
+    </header>
+    <main>
+      <section class="block-content">
+        <div>
+          <h2>Main-root</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;html&#x3e;</span><br />
+            The HTML Document / Root element.
+            <br />
+            <br />
+            <span>&#x3c;html lang="en-US"&#x3e;</span><br />
+            Set the document language.
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Sectioning-root</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;body&#x3e;</span><br />
+            The Document Body element.There can be only one &#x3c;body&#x3e;
+            element in a document.
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Content sectioning</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;article&#x3e;</span><br />
+            Represent a self-contained composition in a document, page,
+            application, or site.
+            <br />
+            <br />
+            <span>&#x3c;aside&#x3e;</span><br />
+            Asides are frequently presented as sidebars or call-out boxes.
+            <br />
+            <br />
+            <span>&#x3c;footer&#x3e;</span><br />
+            Typically contains information about the author of the section,
+            copyright data or links to related documents.
+            <br />
+            <br />
+            <span>&#x3c;header&#x3e;</span><br />
+            Represent introductory content, typically a group of introductory or
+            navigational aids.
+            <br />
+            <br />
+            <span>&#x3c;h1&#x3e; to &#x3c;h6&#x3e;</span><br />
+            Represent six levels of section headings.&#x3c;h1&#x3e; is the
+            highest section level and &#x3c;h6&#x3e; is the lowest.
+            <br />
+            <br />
+            <span>&#x3c;main&#x3e;</span><br />
+            Represent the dominant content of the &#x3c;body&#x3e; of a
+            document.
+            <br />
+            <br />
+            <span>&#x3c;nav&#x3e;</span><br />
+            The navigation sections are menus, tables of contents, and indexes.
+            <br />
+            <br />
+            <span>&#x3c;section&#x3e;</span><br />
+            Represent a generic standalone section of a document.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Text content</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;div&#x3e;</span><br />
+            The generic container for flow content. It has no effect on the
+            content or layout until styled in some way using CSS.
+            <br />
+            <br />
+            <span>&#x3c;hr&#x3e;</span><br />
+            Horizontal Rule. Represent a thematic break between paragraph-level
+            elements.
+            <br />
+            <br />
+            <span>&#x3c;li&#x3e;</span><br />
+            Represent an item in a list. It must be contained in a parent
+            element: an ordered list (&#x3c;ol&#x3e;), an unordered list
+            (&#x3c;ul&#x3e;)
+            <br />
+            <br />
+            <span>&#x3c;ol&#x3e;</span><br />
+            Represent an ordered list of items — typically rendered as a
+            numbered list.
+            <br />
+            <br />
+            <span>&#x3c;p&#x3e;</span><br />
+            Represents a paragraph.
+            <br />
+            <br />
+            <span>&#x3c;ul&#x3e;</span><br />
+            Represents an unordered list of items, typically rendered as a
+            bulleted list.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Inline text semantics</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;a&#x3e;</span><br />
+            Create a hyperlink to web pages, files, email addresses, locations
+            in the same page, or anything else a URL can address.
+            <br />
+            <br />
+            <span
+              >&#x3c;a
+              href="https://www.mozilla.com"&#x3e;Mozilla&#x3c;/a&#x3e;</span
+            ><br />
+            Linking to an absolute URL.
+            <br />
+            <br />
+            <span
+              >&#x3c;a href="./p"&#x3e;Directory-relative
+              URL&#x3c;/a&#x3e;</span
+            ><br />
+            Linking to relative URLs.
+            <br />
+            <br />
+            <span
+              >&#x3c;p&#x3e;&#x3c;a
+              href="#Section_further_down"&#x3e;&#x3c;/a&#x3e;Jump to the
+              heading below&#x3c;/a&#x3e;&#x3c;/p&#x3e;</span
+            ><br />
+            Linking to an element on the same page.
+            <br />
+            <br />
+            <span
+              >&#x3c;a href="mailto:nowhere@mozilla.org"&#x3e;&#x3c;/a&#x3e;Send
+              email to nowhere&#x3c;/a&#x3e;</span
+            ><br />
+            Linking to an email address.
+            <br />
+            <br />
+            <span>&#x3c;b&#x3e;</span><br />
+            Used to draw the reader's attention to the element's contents, which
+            are not otherwise granted special importance. This was formerly
+            known as the Boldface element.
+            <br />
+            <br />
+            <span>&#x3c;br&#x3e;</span><br />
+            Produces a line break in text (carriage-return). It is useful for
+            writing a poem or an address, where the division of lines is
+            significant.
+            <br />
+            <br />
+            <span>&#x3c;i&#x3e;</span><br />
+            To display text in italic type.
+            <br />
+            <br />
+            <span>&#x3c;span&#x3e;</span><br />
+            It can be used to group elements for styling purposes.
+            <br />
+            <br />
+            <span>&#x3c;strong&#x3e;</span><br />
+            Browser typically render the contents in bold type.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Image and multimedia</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;img&#x3e;</span><br />
+            Embed an image into the document.
+            <br />
+            <br />
+            <span>&#x3c;img src="favicon144.png" alt="MDN logo"&#x3e;</span
+            ><br />
+            Embeds an image into the page and includes alternative text for
+            accessibility.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Table content</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;caption&#x3e;</span><br />
+            Specify the caption (or title) of a table.
+            <br />
+            <br />
+            <span>&#x3c;col&#x3e;</span><br />
+            define a column within a table and is used for defining common
+            semantics on all common cells.
+            <br />
+            <br />
+            <span>&#x3c;colgroup&#x3e;</span><br />
+            Define a group of columns within a table.
+            <br />
+            <br />
+            <span>&#x3c;table&#x3e;</span><br />
+            represent tabular data — that is, information presented in a
+            two-dimensional table comprised of rows and columns of cells
+            containing data.
+            <br />
+            <br />
+            <span>&#x3c;tbody&#x3e;</span><br />
+            a set of table rows (&#x3c;tr&#x3e; elements), indicating that they
+            comprise the body of the table (&#x3c;table&#x3e;).
+            <br />
+            <br />
+            <span>&#x3c;td&#x3e;</span><br />
+            Define a cell of a table that contains data.
+            <br />
+            <br />
+            <span>&#x3c;tfoot&#x3e;</span><br />
+            Define a set of rows summarizing the columns of the table.
+            <br />
+            <br />
+            <span>&#x3c;th&#x3e;</span><br />
+            Define a cell as header of a group of table cells.
+            <br />
+            <br />
+            <span>&#x3c;thead&#x3e;</span><br />
+            Define a set of rows defining the head of the columns of the table.
+            <br />
+            <br />
+            <span>&#x3c;tr&#x3e;</span><br />
+            Define a row of cells in a table.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+      <section class="block-content">
+        <div>
+          <h2>Forms</h2>
+        </div>
+        <div>
+          <p>
+            <span>&#x3c;button&#x3e;</span><br />
+            Represent a clickable button, used to submit forms or anywhere in a
+            document for accessible, standard button functionality.
+            <br />
+            <br />
+            <span>&#x3c;datalist&#x3e;</span><br />
+            A set of &#x3c;option&#x3e; elements that represent the permissible
+            or recommended.
+            <br />
+            <br />
+            <span>&#x3c;fieldset&#x3e;</span><br />
+            group several controls as well as labels (&#x3c;label&#x3e;) within
+            a web form.
+            <br />
+            <br />
+            <span>&#x3c;form&#x3e;</span><br />
+            Represent a document section containing interactive controls for
+            submitting information.
+            <br />
+            <br />
+            <span>&#x3c;input&#x3e;</span><br />
+            To create interactive controls for web-based forms in order to
+            accept data from the user.
+            <br />
+            <br />
+            <span>&#x3c;label&#x3e;</span><br />
+            Represent a caption for an item in a user interface.
+            <br />
+            <br />
+            <span>&#x3c;option&#x3e;</span><br />
+            Define an item contained in a &#x3c;select&#x3e;, an
+            &#x3c;optgroup&#x3e;, or a &#x3c;datalist&#x3e; element.
+            <br />
+            <br />
+            <span>&#x3c;select&#x3e;</span><br />
+            Represent a control that provides a menu of options.
+            <br />
+            <br />
+            <span>&#x3c;textarea&#x3e;</span><br />
+            A multi-line plain-text editing control, useful when you want to
+            allow users to enter a sizeable amount of free-form text.
+            <br />
+            <br />
+          </p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
